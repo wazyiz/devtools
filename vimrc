@@ -55,3 +55,6 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>gf :GFiles<CR>
 " open Bufffers, type buffer number then enter
 nnoremap <leader>b :Buffers<CR>
+
+" remap ESC
+imap jj <Esc>
