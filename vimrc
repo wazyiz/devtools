@@ -55,6 +55,8 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>gf :GFiles<CR>
 " open Bufffers, type buffer number then enter
 nnoremap <leader>b :Buffers<CR>
+" open terminal :below terminal
+nnoremap <leader>bt :bel term<CR>
 
 " remap ESC
 imap jj <Esc>
