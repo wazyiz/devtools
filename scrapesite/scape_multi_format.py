@@ -101,7 +101,7 @@ def scrape_and_download_by_category():
         for file_info in file_list:
             pdf_url = file_info.get(FILE_URL_KEY)
             pdf_title = file_info.get(FILE_NAME_KEY)
-            category = file_info.get(CATEGORY_KEY, 'Uncategorized') # Default to 'Uncategorized' if key is missing
+            category = str(file_info.get(CATEGORY_KEY, 'Uncategorized')) # Default to 'Uncategorized' if key is missing
             
             # Determine the subfolder name
             category_folder_name = clean_filename(category)
